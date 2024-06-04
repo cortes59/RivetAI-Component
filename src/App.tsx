@@ -1,5 +1,13 @@
+import { Button } from "./components/Button";
+
 function App() {
-  return <>init</>;
+  return (
+    <>
+      <Button size="small" type="primary" variant="contained" disabled>
+        Test Button
+      </Button>
+    </>
+  );
 }
 
 export default App;
